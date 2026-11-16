@@ -161,7 +161,7 @@
 
 \data{2026}
 
-\orientador[Orientadora:]{Prof. Dr./MSc. Rafael Emerick Zape de Oliveira}
+\orientador[Orientador:]{Prof. Me. Rafael Emerick Zape de Oliveira}
 
 %\coorientador{Prof.ª Dr.ª Fulana Detal Longname}
 \instituicao{%
@@ -185,7 +185,6 @@
 
 \imprimirfolhaderosto*
 
-\includepdf{pdf/folha.pdf}
 %
 %\begin{fichacatalografica}
 %  \vspace*{\fill}
@@ -237,9 +236,13 @@
 %\end{flushleft}
 
 % ------------------------- Folha de Aprovação ------------------------- 
-% Entregue pela coordenação
+% Entregue pela coordenação, assinada no SIPAC: folha de aprovação e folha de assinaturas.
+% A biblioteca pede a folha logo após a folha de rosto.
 %
-\includepdf{pdf/aprovacao.pdf}
+\includepdf[pages=-]{pdf/aprovacao.pdf}
+%
+% Ficha catalográfica entregue pela biblioteca, depois da folha de assinaturas
+\includepdf{pdf/ficha-catalografica.pdf}
 %
 %----
 
